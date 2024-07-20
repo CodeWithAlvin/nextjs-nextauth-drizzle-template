@@ -27,6 +27,11 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.env
+
+#migrations
+/src/lib/db/migrations/*.sql
+/src/lib/db/migrations/meta/0*.sql
 
 # vercel
 .vercel
